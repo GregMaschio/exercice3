@@ -11,3 +11,7 @@ header {
     border: 1px solid red;
     background-color: grey;
 }
+
+main, footer {
+    border: 1px solid red;
+}
