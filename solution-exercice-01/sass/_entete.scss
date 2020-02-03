@@ -1,0 +1,34 @@
+/* 
+barre en haut de l'entete
+*/
+#checkRecherche {
+    position: absolute;
+    top:0;
+    z-index: 5;
+    right:0;
+    width:5vh;
+    opacity: 0;
+}
+
+#checkRecherche:checked ~ #searchInput
+{
+   z-index: 2; 
+}
+
+.entete {
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+    background-color: $couleur_entete;
+    height: 4vh;
+    color:white;
+    font-size:0.7em;
+}
+
+.entete i, .entete h4 {
+    margin-left:1.5em;
+}
+
+.entete i {
+    align-self: center;
+}
